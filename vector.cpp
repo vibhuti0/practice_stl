@@ -10,7 +10,7 @@ int main()
     cout<<"capacity "<<v.capacity()<<endl;
 
     v.push_back(2);
-    cout<<"capacity "<<v.capacity()<<endl;//capacity=> how much memory is assigned . 
+    cout<<"capacity "<<v.capacity()<<endl;//capacity=> how much memory is assigned .  It gets doubled .
 
     v.push_back(3);
     cout<<"capacity "<<v.capacity()<<endl;
